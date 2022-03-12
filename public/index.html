@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>EcomMetrics</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="left">
+          <div class="logo">
+            <a href="#" aria-label="Home">
+              <img
+                class="logo-icon"
+                src="./assets/logo.svg"
+                alt="EcomMetrics"
+              />
+            </a>
+          </div>
+          <nav id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#">Product</a></li>
+              <li class="nav-item"><a href="#">Company</a></li>
+              <li class="nav-item"><a href="#">Pricing</a></li>
+              <li class="nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right">
+          <a id="menu-toggle"><i class='fa fa-bars'></i></a>
+          <a class="button" href="#" target="_blank">Get a Quote </a>
+        </div>
+      </div>
+    </header>
+    <div class="home">
+      <section class="hero">
+        <div class="wrapper">
+          <div class="content">
+            <h1>The #1 analytics solution for ecommerce stores</h1>
+            <div class="subtext">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              sit amet odio vitae enim lacinia tempus ut et nulla
+            </div>
+          </div>
+          <div class="media">
+            <img
+              class="chart"
+              src="./assets/croods-chart.png"
+              alt="Croods Chart"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="carousel ratings container">
+        <p class="carousel-title">
+          Trusted by over <strong>200,000</strong> users and counting
+        </p>
+        <div class="owl-carousel owl-theme swiper-container">
+          <div class="item">
+            <span class="img-text">Anna lin</span>
+            <img src="./assets/person5.png" alt="rounded closeup" />
+            <img
+              class="reviews-icon"
+              src="./assets/reviews.png"
+              alt="5 star review"
+            />
+          </div>
+          <div class="item">
+            <span class="img-text">Mery lou</span>
+            <img src="./assets/person4.png" alt="rounded closeup" />
+            <img
+              class="reviews-icon"
+              src="./assets/reviews.png"
+              alt="5 star review"
+            />
+          </div>
+          <div class="item">
+            <span class="img-text">Aaron Gordon</span>
+            <img src="./assets/person3.png" alt="rounded closeup" />
+            <img
+              class="reviews-icon"
+              src="./assets/reviews.png"
+              alt="5 star review"
+            />
+          </div>
+          <div class="item">
+            <span class="img-text">Ben Shin</span>
+            <img src="./assets/person2.png" alt="rounded closeup" />
+            <img
+              class="reviews-icon"
+              src="./assets/reviews.png"
+              alt="5 star review"
+            />
+          </div>
+          <div class="item">
+            <span class="img-text">Maria Gor</span>
+            <img src="./assets/person1.png" alt="rounded closeup" />
+            <img
+              class="reviews-icon"
+              src="./assets/reviews.png"
+              alt="5 star review"
+            />
+          </div>
+        </div>
+      </div>
+      <section class="benefits">
+        <div class="wrapper">
+          <div class="content">
+            <h2>We have everything you need to track and optimize your store for success</h2>
+            <div class="cards">
+              <div class="card">
+                  <img src="./assets/cart.png" alt="cart" />
+                  <h3>Real time cart abandoned data</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a class="button" href="#" target="_blank">Learn More</a>
+              </div>
+              <div class="card">
+                <img src="./assets/journey.png" alt="person walking" />
+                <h3>Insights to buyers journeys</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a class="button" href="#" target="_blank">Learn More</a>
+              </div>
+              <div class="card">
+                <img src="./assets/dollar.png" alt="dollar" />
+                <h3>Conversion rates for each product category</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a class="button" href="#" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="wrapper">
+          <h2>Get in Touch with Us</h2>
+          <form id="contact-form">
+            <input id="name" aria-required="true" type="text" placeholder="Name" required/>
+            <input id="email" aria-required="true" type="text" placeholder="Email" required/>
+            <input id="phone" aria-required="true" type="text" placeholder="Phone" required/>
+            <input class="button" id="submit-button" type="button" value="Send"></input>
+          </form>
+          <div class="media">
+            <img
+              class="chart"
+              src="./assets/arrow.png"
+              alt="Croods Chart"
+            />
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="wrapper">
+          <div class="logo">
+            <a href="#" aria-label="Home">
+              <img
+                class="logo-icon"
+                src="./assets/Logo.svg"
+                alt="EcomMetrics"
+              />
+            </a>
+          </div>
+          <div class="inner left-footer">
+            <p>Lorem Ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Quis lpsum suspendisse
+              ultrices gravida, Risus sommodo viverra maecenas
+              accumsan lacus vel facilsis.</p>
+            <p class="copyright">© EcomMetrics 2021. All rights reserved.</p>
+          </div>
+          <div class="inner right-footer">
+            <p>Main road, building name, country.</p>
+            <p>info@companyname.com</p>
+            <div class="icon-container">
+              <a href="#">
+                <img src="./assets/twit.png" alt="twitter icon" />
+              </a>
+              <a href="#">
+                <img src="./assets/face.png" alt="facebook icon" />
+              </a>
+              <a href="#">
+                <img src="./assets/inst.png" alt="instagram icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---Including jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!---owl carousel library script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- calling the owl function-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          responsiveClass: true,
+          responsive:{
+            0: {
+              items: 1,
+              margin: 30,
+              nav: false,
+              navigation: false,
+              autoplay: true
+            },
+            768: {
+              items: 3,
+              margin: 30,
+              nav: false,
+              navigation: false,
+              autoplay: true
+            },
+            1000: {
+              items: 3,
+              margin: 30,
+              nav: false,
+              navigation: false,
+              autoplay: true
+            },
+            1200: {
+              items: 5,
+              margin: 30,
+              nav: true,
+              navigation: true,
+              autoplay: true
+            }
+          },
+          margin: 50,
+          autoplay: false,
+          loop: true,
+          center: true,
+          slideBy: 1,
+          slideSpeed: 100,
+          paginationSpeed: 100,
+          smartSpeed: 500, // duration of change of 1 slide
+          dots: false,
+          autoWidth: true,
+          singleItem: false,
+          navigation: true,
+          scrollPerPage: false,
+          navigationText: [
+            "<i class='fa fa-chevron-left'></i>",
+            "<i class='fa fa-chevron-right'></i>"
+          ],
+          navText: [
+            "<i class='fa fa-chevron-left'></i>",
+            "<i class='fa fa-chevron-right'></i>"
+          ]
+        });
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
